@@ -113,6 +113,11 @@ h2 {
   width: 25%;
 }
 
+.cards {
+  margin: auto;
+  max-width: 25rem;
+}
+
 .card {
   border: 5px solid #141446;
   border-radius: 25px;
@@ -127,6 +132,10 @@ h2 {
 
 .card:hover {
   background-color: #141446;
+  transition: 250ms;
+}
+
+.card:hover dl {
   color: #e6dfda;
   transition: 250ms;
 }
@@ -163,8 +172,8 @@ strong {
 }
 
 .card:hover strong {
-  background-color: #e6dfda;
-  color: #141446;
+  background-color: #4b4b63;
+  color: #e6dfda;
   transition: 250ms;
 }
 
