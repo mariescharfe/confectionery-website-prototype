@@ -135,11 +135,6 @@ h2 {
   transition: 250ms;
 }
 
-.card:hover dl {
-  color: #e6dfda;
-  transition: 250ms;
-}
-
 .img-card {
   overflow: hidden;
   display: inline-block;
@@ -173,6 +168,7 @@ strong {
 
 .card:hover strong {
   background-color: #4b4b63;
+  border-color: #4b4b63;
   color: #e6dfda;
   transition: 250ms;
 }
@@ -186,6 +182,11 @@ strong {
 
 .card-text dl {
   text-align: left;
+}
+
+.card:hover dl {
+  color: #e6dfda;
+  transition: 250ms;
 }
 
 .quote {
@@ -205,6 +206,10 @@ footer {
 footer p {
   margin: 0;
   padding: .5rem;
+}
+
+.logo {
+  max-width: 4rem;
 }
 
 .video {
