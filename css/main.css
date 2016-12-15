@@ -66,6 +66,12 @@ nav a {
   transition: 550ms;
 }
 
+.contact a {
+  width: 20%;
+  float: left;
+  padding: 0 1rem;
+}
+
 nav a:hover {
   background-color: #4b4b63;
   transition: 550ms;
@@ -239,12 +245,6 @@ footer p {
   overflow: hidden;
 }
 
-.contact a {
-  width: 20%;
-  float: left;
-  padding: 0 1rem;
-}
-
 .contact img {
   max-width: 3.5rem;
 }
@@ -314,6 +314,31 @@ footer p {
   nav a {
     max-width: 33.3333%;
     float: left;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .wrapper-content {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    padding: 0;
+    background-color: rgba(43, 37, 37, 0.7);
+    color: #fff;
+    padding: .5rem 1rem 1rem;
+    border-radius: 10px;
+  }
+
+  .wrapper-content h2 {
+    padding: 0 0 .5rem;
+  }
+
+  .wrapper-content p {
+    padding: 0;
+    text-align: justify;
   }
 
   .ferrets {
