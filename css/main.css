@@ -208,8 +208,16 @@ footer p {
   padding: .5rem;
 }
 
+.icons li {
+  display: inline-block;
+}
+
+span {
+  float: left;
+}
+
 .logo {
-  max-width: 4rem;
+  max-width: 3.5rem;
 }
 
 .video {
