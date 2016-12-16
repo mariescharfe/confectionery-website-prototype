@@ -452,4 +452,30 @@ footer p {
     font-size: 130%;
   }
 
+  .fun-facts {
+    max-width: 65rem;
+    text-align: center;
+  }
+
+  .img-ferrets {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    padding: 0 2rem 2rem 0;
+  }
+
+  .text-fact {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+  }
+
+  .facts-list li {
+    text-align: left;
+  }
+
+  .btn-facts {
+    margin: 1rem 1rem 1rem 0;
+  }
+
 }
