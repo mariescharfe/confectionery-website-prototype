@@ -146,6 +146,11 @@ h2 {
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+  border-radius: 10px;
+}
+
+.card img {
+  margin: .5rem auto 1rem;
 }
 
 dl {
@@ -442,7 +447,6 @@ footer p {
     vertical-align: middle;
     width: 30%;
   }
-
 
 }
 
